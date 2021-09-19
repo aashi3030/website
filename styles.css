@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+}
+h1 {
+  font-size: "loral", sans-serif;
+  font-weight: 400;
+  color: #143774;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-weight: 600;
+  color: #179;
+  font-size: 0.75em;
+  margin: 0;
+  max-width: 30%;
+  text-align: left;
+}
+.container {
+  width: 90%;
+  max-width: 900px;
+}
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+@media (max-width: 675px) {
+  .container-nav {
+    flex-direction: column;
+  }
+}
+header {
+  background: plum;
+  padding: 2em 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+nav li {
+  border: 2px dotted rgb(41, 39, 36);
+  margin: 0 1em;
+}
+nav a {
+  border: 3px solid green;
+  text-decoration: none;
+  color: #787878;
+  font-weight: 700;
+  padding: 0.25em 4;
+}
+nav a:hover,
+nav a:focus {
+  color: #179262;
+}
+.current-page {
+  border-bottom: 1px solid #787878;
+}
+.current-page:hover {
+  color: #787878;
+}
+@media (max-width: 675px) {
+  nav-ul {
+    flex-direction: column;
+  }
+
+  nav-li {
+    margin: 0.5 0;
+  }
+}
+
+body {
+  font-size: 1.125rem;
+  color: #707070;
+  margin: 0;
+  background-color: lightsalmon;
+}
+@media (min-width: 650px) {
+  body {
+    background: orange;
+  }
+}
+
+@media (min-width: 650px) and (orientation: landscape) {
+  body {
+    background: orange;
+  }
+}
+@media (min-width: 500px) and (min-width: 649px) {
+  body {
+    background: purple;
+  }
+}
+
+/*typography*/
+h1 {
+  font-size: 3rem;
+  color: #312614;
+  text-align: center;
+}
+h1 span {
+  color: #b7832f;
+}
+h2 {
+  font: 1.5rem;
+}
+p {
+  margin-top: 0;
+}
+
+img {
+  max-width: 150%;
+  max-height: 40%;
+  padding: 5%;
+  background-position: top;
+}
+.container {
+  width: 334;
+  max-width: 980px;
+  margin: 0 auto;
+}
+.columns {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+  border: 1px solid magenta;
+}
+.col-1 {
+  width: 20%;
+}
+.col-2 {
+  width: 45%;
+}
+
+.col-3 {
+  width: 70%;
+}
+
+.col-bg {
+  background-color: #212634;
+  color: rgb(104, 85, 85);
+  padding: 0.5em;
+}
+@media (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+  .col-1,
+  .col-2,
+  .col-3 {
+    width: 100%;
+  }
+}
